@@ -1,0 +1,18 @@
+{
+  "name": "node-gis-api",
+  "version": "1.0.0",
+  "description": "Simple GIS vector data server, pulling data from PostGIS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Zimmerman",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.10.0",
+    "router": "^1.3.8"
+  }
+}
